@@ -48,8 +48,7 @@
             padding: 24px; margin-bottom: 22px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 15px 35px rgba(15,10,13,0.4); text-align: left;
         }
         .beauty-card h4 { margin: 0 0 6px 0; font-size: 19px; font-weight: 800; text-transform: uppercase; }
-        .beauty-card p { margin: 0; font-size: 13px; color: #6b5e64; }
-        .price-luxury { color: #0f0a0d; font-weight: 800; font-size: 22px; border-bottom: 2px solid #e6ca9d; }
+        .beauty-card p { margin: 0; font-size: 13px; color: #6b5e64; line-height: 1.5; }
         #galleryGrid { 
             display: grid; grid-template-cols: repeat(3, 1fr); gap: 4px; 
             width: 100%; max-width: 600px; margin: 25px auto 0 auto; padding: 0 4px;
@@ -72,20 +71,18 @@
         <a href="tel:+2348135264810" class="btn-luxe">✨ Book Studio Appointment</a>
     </header>
     <section>
-        <div class="section-headline">The Menu</div>
+        <div class="section-headline">The Studio Menu</div>
         <div class="beauty-card">
             <div>
                 <h4>Signature Soft Glam</h4>
-                <p>Luminous skin finish, organic shadow definition, and custom lash layout.</p>
+                <p>Luminous skin finish, organic shadow definition, and custom lash layout tailored completely for your aesthetic.</p>
             </div>
-            <div class="price-luxury">₦15,000</div>
         </div>
         <div class="beauty-card">
             <div>
                 <h4>Full Editorial Luxury</h4>
-                <p>High-definition mapping, creative color sets, and luxury contour execution.</p>
+                <p>High-definition mapping, creative color sets, and luxury couture contour execution for high-profile events.</p>
             </div>
-            <div class="price-luxury">₦25,000</div>
         </div>
     </section>
     <section style="max-width: 100%; background: rgba(15, 10, 13, 0.4); padding: 50px 0;">
@@ -93,7 +90,6 @@
             <div class="section-headline">The Lookbook</div>
         </div>
         
-        <!-- 📸 Perfect Dynamic Row Grid mapped straight to your exact uploaded photos -->
         <div id="galleryGrid">
             <div class="gallery-item"><img src="IMG_8199.jpeg"></div>
             <div class="gallery-item"><img src="IMG_8197.jpeg"></div>
